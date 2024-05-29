@@ -14,7 +14,7 @@
                     <DataTemplate>
                         <HorizontalStackLayout>
                             <Image Source="{Binding Source}" HeightRequest="100"/>
-                            <Label Text="{Binding Name}"/>
+                            <Label TextColor="Black" Text="{Binding Name}"/>
                         </HorizontalStackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
